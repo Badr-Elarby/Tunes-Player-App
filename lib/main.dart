@@ -9,11 +9,9 @@ class TunesPlayerApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Tunes Player'),
-      ),
-      body: Container(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      //
     );
   }
 }
