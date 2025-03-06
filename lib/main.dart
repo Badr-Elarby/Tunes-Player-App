@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tunes_player_app/screens/tune_screen.dart';
 
 void main() {
   runApp(const TunesPlayerApp());
@@ -9,9 +10,10 @@ class TunesPlayerApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      //
-    );
+    return const MaterialApp(
+        debugShowCheckedModeBanner: false, home: TuneScreen()
+
+        //
+        );
   }
 }
